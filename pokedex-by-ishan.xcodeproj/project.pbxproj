@@ -18,6 +18,7 @@
 		2D87DC5B1CC331600024FA6A /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87DC5A1CC331600024FA6A /* PokeCell.swift */; };
 		2D87DC5D1CC33F830024FA6A /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87DC5C1CC33F830024FA6A /* csv.swift */; };
 		2D87DC621CC344DC0024FA6A /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D87DC611CC344DC0024FA6A /* pokemon.ttf */; };
+		2D87DC641CC3E5AD0024FA6A /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87DC631CC3E5AD0024FA6A /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2D87DC5A1CC331600024FA6A /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		2D87DC5C1CC33F830024FA6A /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		2D87DC611CC344DC0024FA6A /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		2D87DC631CC3E5AD0024FA6A /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				2D87DC421CC321B70024FA6A /* ViewController.swift */,
+				2D87DC631CC3E5AD0024FA6A /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				2D87DC5B1CC331600024FA6A /* PokeCell.swift in Sources */,
 				2D87DC431CC321B70024FA6A /* ViewController.swift in Sources */,
 				2D87DC411CC321B70024FA6A /* AppDelegate.swift in Sources */,
+				2D87DC641CC3E5AD0024FA6A /* PokemonDetailVC.swift in Sources */,
 				2D87DC561CC32A220024FA6A /* Pokemon.swift in Sources */,
 				2D87DC5D1CC33F830024FA6A /* csv.swift in Sources */,
 			);
@@ -352,6 +356,7 @@
 				2D87DC511CC321B70024FA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
