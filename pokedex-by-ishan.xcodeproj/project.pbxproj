@@ -16,6 +16,8 @@
 		2D87DC561CC32A220024FA6A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87DC551CC32A220024FA6A /* Pokemon.swift */; };
 		2D87DC581CC32C4D0024FA6A /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D87DC571CC32C4D0024FA6A /* music.mp3 */; };
 		2D87DC5B1CC331600024FA6A /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87DC5A1CC331600024FA6A /* PokeCell.swift */; };
+		2D87DC5D1CC33F830024FA6A /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87DC5C1CC33F830024FA6A /* csv.swift */; };
+		2D87DC621CC344DC0024FA6A /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D87DC611CC344DC0024FA6A /* pokemon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		2D87DC551CC32A220024FA6A /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		2D87DC571CC32C4D0024FA6A /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		2D87DC5A1CC331600024FA6A /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		2D87DC5C1CC33F830024FA6A /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		2D87DC611CC344DC0024FA6A /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +67,12 @@
 		2D87DC3F1CC321B70024FA6A /* pokedex-by-ishan */ = {
 			isa = PBXGroup;
 			children = (
+				2D87DC601CC33FAC0024FA6A /* Resources */,
+				2D87DC5F1CC33F9E0024FA6A /* Controller */,
+				2D87DC5E1CC33F930024FA6A /* Util */,
 				2D87DC541CC32A0F0024FA6A /* Model */,
 				2D87DC591CC3312E0024FA6A /* View */,
-				2D87DC521CC3238C0024FA6A /* pokemon.csv */,
 				2D87DC401CC321B70024FA6A /* AppDelegate.swift */,
-				2D87DC421CC321B70024FA6A /* ViewController.swift */,
 				2D87DC441CC321B70024FA6A /* Main.storyboard */,
 				2D87DC471CC321B70024FA6A /* Assets.xcassets */,
 				2D87DC491CC321B70024FA6A /* LaunchScreen.storyboard */,
@@ -90,6 +95,31 @@
 				2D87DC5A1CC331600024FA6A /* PokeCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		2D87DC5E1CC33F930024FA6A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2D87DC5C1CC33F830024FA6A /* csv.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2D87DC5F1CC33F9E0024FA6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D87DC421CC321B70024FA6A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2D87DC601CC33FAC0024FA6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D87DC611CC344DC0024FA6A /* pokemon.ttf */,
+				2D87DC521CC3238C0024FA6A /* pokemon.csv */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +184,7 @@
 				2D87DC4B1CC321B70024FA6A /* LaunchScreen.storyboard in Resources */,
 				2D87DC481CC321B70024FA6A /* Assets.xcassets in Resources */,
 				2D87DC531CC3238C0024FA6A /* pokemon.csv in Resources */,
+				2D87DC621CC344DC0024FA6A /* pokemon.ttf in Resources */,
 				2D87DC461CC321B70024FA6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +200,7 @@
 				2D87DC431CC321B70024FA6A /* ViewController.swift in Sources */,
 				2D87DC411CC321B70024FA6A /* AppDelegate.swift in Sources */,
 				2D87DC561CC32A220024FA6A /* Pokemon.swift in Sources */,
+				2D87DC5D1CC33F830024FA6A /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +317,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IshanShams.pokedex-by-ishan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -296,6 +329,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IshanShams.pokedex-by-ishan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
